@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LuxuryRoll - Премиальная туалетная бумага</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
     <main>
         <div class="bento-grid">
             <!-- Логотип и название компании -->
-            <div class="bento-item logo-title">
+            <button onclick="location.href='/about'" class="bento-item logo-title">
                 <a href="/about" class="logo-link">
                     <img src="images/logo.png" alt="LuxuryRoll" class="icon icon-logo">
                     <h2>LuxuryRoll</h2>
                 </a>
-            </div>
+            </button>
 
             <!-- Главный заголовок -->
             <div class="bento-item main-title">
@@ -24,15 +25,15 @@
             </div>
 
             <!-- Навигационные элементы -->
-            <div class="bento-item nav-card">
+            <button onclick="location.href='/subscription'" class="bento-item nav-card">
                 <img src="images/subscription.png" alt="Подписка" class="icon icon-subscription">
                 <h3><a href="/subscription">Подписка</a></h3>
-            </div>
+            </button>
 
-            <div class="bento-item nav-card">
-                <img src="images/holders.png" alt="Холдеры" class="icon icon-holders">
-                <h3><a href="/holders">Холдеры</a></h3>
-            </div>
+            <button onclick="location.href='/holders'" class="bento-item nav-card">
+                <img src="images/holders.png" alt="Держатели" class="icon icon-holders">
+                <h3><a href="/holders">Держатели</a></h3>
+            </button> 
 
             <!-- Карточки с преимуществами -->
             <div class="bento-item feature-card">
