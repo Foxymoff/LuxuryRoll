@@ -3,7 +3,7 @@
     --accent-color: #e74c3c;
     --bg-color: #f0f2f5;
     --text-color: #333;
-    --card-bg: rgba(255, 255, 255, 0.8);
+    --card-bg: rgba(255, 255, 255, 1);
 }
 
 body {
@@ -309,12 +309,12 @@ main {
 .icon-logo {
     width: 60px;
     height: 60px;
-    margin-bottom: -1.5rem;
+    margin-bottom: -0.5rem;
 }
 
 .icon-premium, .icon-eco, .icon-subscription, .icon-holders {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 /* Эффект при наведении для всех иконок */
